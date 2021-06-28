@@ -1,0 +1,283 @@
+.head{
+  background-color:#e6f2ff;
+}
+body {
+ margin-top:10px;
+ background-color:white;
+}
+.logo{
+   height : 250px;
+   width : 300px;
+   margin-left:0px;
+
+}
+.logo2{
+   height : 250px;
+   width : 350px;
+   position:absolute;
+
+}
+.search{
+  float: right;
+   margin-top: 225px;
+   font-size: 17px;
+}
+.hr1 {
+  border: 1px solid grey;
+  margin-top:0px;
+}
+.ul1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #19334d;
+}
+.li1{
+  float: left;
+  display: inline;
+}
+.a{
+  display: block;
+  color: white;
+  font-family: Lucida Console;
+  font-size: 17px;
+  text-align: center;
+  padding: 14px 41px;
+  text-decoration: none;
+
+}
+.a1:hover {
+  background-color: #ccccb3;
+}
+.img2{
+   height : 600px;
+   width : 100%;
+}
+.slideshow-container {
+  max-width: 95%;
+  position: relative;
+  margin: auto;
+}
+
+.foot{
+  background-color:#ccccb3;
+  opacity: 0.8;
+} 
+.i{
+  margin-top:10px;
+ background-image:url("../images/img1.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height : 100%; 
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+label{
+  font-size: 17px;
+  font-weight:bold;
+}
+.form{
+  text-align:center;
+  font-family: "Lucida Console"," Courier", "monospace";
+  font-size: 15px;
+  background-color:grey;
+    padding-bottom: 25px;
+    padding-top:15px;
+  margin: 10px 120px 0px 120px;
+  opacity:0.85;
+border-radius:12px;
+}
+.submit{
+  background-color:green;
+  color: white;
+}
+
+a {
+    color: inherit;
+    text-decoration:none;
+}
+
+.button1 {
+  background-color: #ff9933;
+  border: none;
+  color: #00001a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.p1{
+  font-size: 22px;
+  color:#4d0000;
+}
+.png{
+  width:17%;
+  height:17%;
+}
+.pa2{
+  font-size: 18px;
+  color:#000033;
+}
+fieldset{
+ margin-right:170px;
+  margin-left:170px;
+}
+.p2{
+  text-align: center;
+  margin-right:0px;
+  font-family: Courier;
+  font-size:17px;
+  color:#001a33;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.heading {
+  font-size: 35px;
+  margin-right: 25px;
+
+}
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 97%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+.rat{
+  width:10%;
+  height:6%;
+}
+.pa3{
+  font-size: 20px;
+
+}
+.bg{
+  background-color:#ccccff;
+  opacity:0.85;
+  border-radius:8px;
+}
+ .rating {
+  display: inline-block;
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  font-size: 50px;
+}
+
+.rating label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.rating label:last-child {
+  position: static;
+}
+
+.rating label:nth-child(1) {
+  z-index: 5;
+}
+
+.rating label:nth-child(2) {
+  z-index: 4;
+}
+
+.rating label:nth-child(3) {
+  z-index: 3;
+}
+
+.rating label:nth-child(4) {
+  z-index: 2;
+}
+
+.rating label:nth-child(5) {
+  z-index: 1;
+}
+
+.rating label input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.rating label .icon {
+  float: left;
+  color: transparent;
+}
+
+.rating label:last-child .icon {
+  color: #000;
+}
+
+.rating:not(:hover) label input:checked ~ .icon,
+.rating:hover label:hover input ~ .icon {
+  color: #ffbb1b;
+}
+
+.rating label input:focus:not(:checked) ~ .icon:last-child {
+  color: #000;
+  text-shadow: 0 0 5px #ffbb1b;
+}

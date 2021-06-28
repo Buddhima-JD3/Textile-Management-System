@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title> Mangalya </title>
+ <link rel = "stylesheet" href = "../styles/styled.css">
+ <link rel = "stylesheet" href = "../styles/header.css">
+ <script src="../js/script4.js"></script>
+ </head>
+ <body>
+ <table class="tableTop" bgcolor="#ccddff">
+    <tr>
+        <th> <img src = "../images/logonew.png" class ="logo"> </th>
+        <th class="tytle"> Make Your Wedding Perfect..! </th>
+    </tr>
+ </table>
+
+ <hr>
+
+ <ul class="ul-menu">
+    <li class="li-menu"> <a href = "home.html" > Home </a></li>
+    <li class="li-menu"> <a href = "plan-weddding.html" > Plan Wedding </a></li>
+    <li class="li-menu"> <a href = > Gallery </a></li>
+    <li class="li-menu"> <a href = > Testimonials </a></li>
+    <li class="li-menu"> <a href = > Ideas </a></li>
+    <li class="li-menu"> <a href = > Be a Partner </a></li>
+    <li class="li-menu"> <a href = "rate.html" > Rate </a></li>
+    <li class="li-menu"> <a href = > Contact Us </a></li>
+</ul>
+
+ <div class="search-box">
+    <input class="search-txt" type="text" name="" placeholder="Search"></div>
+
+  <div class = "i">
+  <hr>
+  <br>
+  <br>
+  <br>
+  <center>
+  <button class = "button1" onclick="myFunction()"><b>Check Initial Prices of Packages</b></button>
+
+  <p class = "p1" id="demo" style="background-color:#ffffb3;margin-left:500px;margin-right:500px;"></p>
+  </center>
+<script>
+function myFunction() {
+  var package = {Rs1000:"Wedding Day Package", Rs2000:"Half Package", Rs3000:"Full Package"};
+  
+  var text = "<b>";
+  var x;
+  for (x in package) {
+    text += package[x] + " = " + x + "<br>";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+<br>
+<br>
+<center><h1 style="black; background-color: #ffffb3; margin-left:500px;margin-right:500px;"> Enter Payment Details </h1>
+<img src = "../images/img35.png" class = "png">
+<br>
+<br>
+
+<h2>Enter Card Type</h2><input type = "text" required>
+<h2>Enter Last Name of Card Holder</h2><input type = "text" required>
+<h2>Enter Card Number</h2><input type = "numbers" required>
+<h2>Enter Card Expire Date</h2><input type = "text" required>
+<h2>Enter CVV Number</h2><input id = "cvv1" type = "password" required>
+<h2>Enter CVV Number Again</h2><input id = "cvv2" type = "password" required>
+<h2>Selected Package</h2>
+<select name="p" id="p">
+  <option value="day">Wedding Day Package</option>
+  <option value="half">Half Package</option>
+  <option value="full">Full Package</option>
+  </select><br><br>
+  <button type="submit"id = "sub" onclick = "validate()" style="background-color:green; color:white;">Submit</button>
+ 
+    <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+   <!--footer start-->
+ <hr>
+</div>
+<link rel="stylesheet" href="../styles/foota.css">
+<div class ="foota">
+<center>
+<br>
+<div class="div-transbox">
+<br>
+<h3 a href="contact.html"> Contact Us </h3>
+<p> +94 813 3454 <br>
+mangalyaSL@gmail.com <br>
+<h3 a href=""> About Us </h3><br>
+
+<a href = "https://www.facebook.com" >
+    <img class = "social" src="../images/fb.jpg"></a>
+<a href = "https://www.twitter.com" >
+    <img class = "social" src="../images/twitter.jpg"></a>
+<a href = "https://www.youtube.com" > 
+<img class = "social" src="../images/youtube.jpg"></a><br>
+
+<h3 a href=""> Privacy Policy </h3>
+<p class = "p2">copyright � mangalya.com. All rights reserved.</p>
+<img src="">
+</div>
+</center>
+</div>
+  </body>
+ </html>

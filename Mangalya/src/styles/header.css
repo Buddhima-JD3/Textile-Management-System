@@ -1,0 +1,66 @@
+/*style nav bar*/
+.ul-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #19334d;
+    border-radius: 8px;
+    margin-right: 5px;
+    width: 100%;
+    height: 55px;
+  }
+  .li-menu {
+    float: left;
+    width: 130px;
+  }
+  
+  li a {
+    display: block;
+    color: #BDC3C7;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: Lucida Console;
+  }
+  
+  li a:hover {
+    background-color: grey;
+    color: black;
+  }
+  
+  /*style the search box*/
+  .search-box {
+    position: absolute;
+    float: right;
+    width: 0px;
+    left: 85%;
+    top: 32%;
+    transform: translate(-50%, -50%);
+    background: #154360;
+    height: 10px;
+    border-radius: 50px;
+  
+  }
+  /*header*/
+  .tableTop {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .th-tableTop {
+    text-align:left;
+    padding: 10px;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+  
+  }
+  .tytle {
+    font-size: 35px;
+    color: 	 #001a4d;
+    font-style: oblique;
+  }

@@ -1,0 +1,275 @@
+.head{
+  background-color:#e6f2ff;
+}
+.i{
+ margin-top:10px;
+ background-image:url("../images/img1.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height : 100%; 
+    background-attachment: fixed;
+    
+}
+.logo{
+   height : 250px;
+   width : 300px;
+   margin-left:0px;
+
+}
+.logo2{
+   height : 250px;
+   width : 350px;
+   position:absolute;
+
+}
+.search{
+  float: right;
+   margin-top: 225px;
+   font-size: 17px;
+}
+.hr1 {
+  border: 1px solid grey;
+  margin-top:0px;
+}
+.ul1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  background-color: #19334d;
+}
+.li1{
+  float: left;
+  display: inline;
+}
+.a{
+  display: block;
+  color: white;
+  font-family: Lucida Console;
+  font-size: 17px;
+  text-align: center;
+  padding: 14px 41px;
+  text-decoration: none;
+
+}
+.a1:hover {
+  background-color: #ccccb3;
+}
+.img2{
+   height : 600px;
+   width : 100%;
+}
+.slideshow-container {
+  max-width: 95%;
+  position: relative;
+  margin: auto;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.f1{
+  margin-right:190px;
+  margin-left:190px;
+  color:#1f2e2e;
+border-radius:8px;
+}
+.img3{
+   height : 350px;
+   width : 45%;
+   margin-left:50px;
+}
+.p1{
+  margin-top:5px;
+  margin-left:30px;
+  font-family: Courier;
+  font-size:37px;
+  color:#330033;
+}
+.img5{
+  margin-top:0;
+  margin-left: 450px;
+   height : 85px;
+   width : 30%;
+}
+.p2{
+  text-align: center;
+  margin-right:0px;
+  font-family: Courier;
+  font-size:17px;
+  color:#001a33;
+}
+.a2{
+  margin-left:475px;
+  color:#730099;
+}
+.a3{
+  margin-left:87px;
+  color:#730099;
+}
+.a2:hover{
+  background-color :  #80bfff;
+}
+.a3:hover{
+  background-color :  #80bfff;
+}
+.foot{
+  background-color:#ccccb3;
+  opacity: 0.8;
+}
+/*plan wedding-----------------*/
+
+.button1 {
+  background-color: #e9a512;
+  border: none;
+  color: #00001a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px 0px 150px;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.button1:hover{
+  background-color :  #06498b;
+  color:white;
+}
+
+.button2 {
+  background-color: #e9a512;
+  border: none;
+  color: #00001a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 165px 0px ;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.button2:hover{
+  background-color :  #06498b;
+  color:white;
+}
+
+.button3 {
+  background-color: #e9a512;
+  border: none;
+  color: #00001a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 75px 0px ;
+  cursor: pointer;
+  border-radius: 9px;
+}
+.button3:hover{
+  background-color :  #06498b;
+  color:white;
+}
+
+a {
+    color: inherit;
+}
+
+.img6{
+  align:center;
+  height : 350px;
+  width : 100%;
+
+}
+.button4 {
+  background-color: #4d4dff;
+  font-weight: bold;
+  border: none;
+  color: #00001a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px 0px 150px ;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.p3{
+  text-align:center;
+  font-size:30px;
+  color:#00004d;
+  font-family:Comic Sans MS;
+}
+.button5 {
+  background-color: #8080ff;
+  font-weight: bold;
+  border: none;
+  color: #00001a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px 0px 200px ;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.button6 {
+  background-color: #8080ff;
+  font-weight: bold;
+  border: none;
+  color: #00001a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 0px 0px 0px ;
+  cursor: pointer;
+  border-radius: 7px;
+}
+.txt1{
+  background-color:#ffcccc;
+  float:right;
+  width:400px;
+  margin-top:12px;
+  margin-right:170px;
+  font-size: 20px;
+  color:#990000;
+border-radius:9px;
+}
+.button7 {
+  background-color: #1aff66;
+  font-weight: bold;
+  border: none;
+  color: #00001a;
+  padding: 18px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 0px 0px 600px ;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+

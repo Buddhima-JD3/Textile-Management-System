@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title> Mangalya </title>
+ <link rel = "stylesheet" href = "../styles/styled.css">
+ <link rel = "stylesheet" href = "../styles/header.css">
+ <script src="../js/script3.js"></script>
+ </head>
+ <body>
+ <table class="tableTop" bgcolor="#ccddff">
+    <tr>
+        <th> <img src = "../images/logonew.png" class ="logo"> </th>
+        <th class="tytle"> Make Your Wedding Perfect..! </th>
+    </tr>
+ </table>
+
+ <hr>
+
+ <ul class="ul-menu">
+    <li class="li-menu"> <a href = "home.html" > Home </a></li>
+    <li class="li-menu"> <a href = "plan-weddding.html" > Plan Wedding </a></li>
+    <li class="li-menu"> <a href = > Gallery </a></li>
+    <li class="li-menu"> <a href = > Testimonials </a></li>
+    <li class="li-menu"> <a href = > Ideas </a></li>
+    <li class="li-menu"> <a href = > Be a Partner </a></li>
+    <li class="li-menu"> <a href = "rate.html" > Rate </a></li>
+    <li class="li-menu"> <a href = > Contact Us </a></li>
+</ul>
+
+ <div class="search-box">
+    <input class="search-txt" type="text" name="" placeholder="Search"></div>
+
+ 
+  <div class = "i"> <hr>
+  <br>
+  <br>
+  <br>
+  <div id = "myDIV">
+<form action="paymentplan.html" class = "form">
+  <h1> Enter Details </h1>
+  <label for="fname">Name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder = "First Name" required>
+  <input type="text" id="lname" name="lname" placeholder = "Last Name" required><br><br>
+  <b>Gender</b><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br><br>
+  <label for="cnumber">Contact Number:</label><br>
+  <input type="phone" id="cnumber" name="cnumber" placeholder = "1234567890" pattern="[0-9]{10}$" required><br><br>
+  <label>E-mail: </label>  <br>
+  <input type="email" id="myEmail" name="email" placeholder = "abc@gmail.com"pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"required><br><br>
+  <label>Adress:</label> <br>
+ <label>Number and Street: </label><textarea id="adress" name="adress" rows="1" cols="50" required>
+  </textarea> <br>
+  <label>City: </label><textarea id="adress2" name="adress" rows="1" cols="20" required>
+  </textarea>
+  <br>
+  <br>
+  <label for="wedd">Date of Wedding:</label>
+<select name="wedd" id="wedd">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+  <option value="13">13</option>
+  <option value="14">14</option>
+  <option value="15">15</option>
+  <option value="16">16</option>
+  <option value="17">17</option>
+  <option value="18">18</option>
+  <option value="19">19</option>
+  <option value="20">20</option>
+  <option value="21">21</option>
+  <option value="22">22</option>
+  <option value="23">23</option>
+  <option value="24">24</option>
+  <option value="25">25</option>
+  <option value="26">26</option>
+  <option value="27">27</option>
+  <option value="28">28</option>
+  <option value="29">29</option>
+  <option value="30">30</option>
+  <option value="31">31</option>
+</select>
+<label for="wedm">Month of Wedding:</label>
+<select name="wedm" id="wedm">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+  <option value="10">10</option>
+  <option value="11">11</option>
+  <option value="12">12</option>
+</select>
+<label for="wedy">Year of Wedding:</label>
+<select name="wedy" id="wedy">
+  <option value="2020">2020</option>
+  <option value="2021">2021</option>
+  <option value="2022">2022</option>
+  <option value="2023">2023</option>
+  <option value="2024">2024</option>
+  <option value="2025">2025</option>
+</select><br><br>
+<label for="crowd">Expected Crowd:</label>
+<select name="crowd" id="crowd">
+  <option value="200+">200+</option>
+  <option value="300+">300+</option>
+  <option value="400+">400+</option>
+  <option value="450+">450+</option>
+  <option value="500+">500+</option>
+  <option value="600+">600+</option>
+</select><br><br>
+<label for="id">National ID</label>
+  <input id="id" pattern="{9}" name="psw" required>
+<label for="id1">Partner's ID</label>
+  <input id="id1" pattern="{9}" name="psw1" required>
+<br>
+ <br>
+  <label for="package">Selected Package:</label>
+<select name="p" id="p">
+  <option value="day">Wedding Day Package</option>
+  <option value="half">Half Package</option>
+  <option value="full">Full Package</option>
+  </select><br><br>
+  <label>More Details: </label><br><textarea id="adress" name="adress" rows="6" cols="60">
+  </textarea> <br>
+<label for="checkBox">Accept privacy policy and terms</label>
+<input type="checkbox" id="checkBox" onclick="enableButton()"><br><br>
+<input type="submit" class="submit" id="submitBtn" value="Submit" disabled  ><br><br>
+<p style="fontweight:normal">Please consider that initial charges will be applied for planning the wedding according to the package you select. You will have to pay it using a credit or a debit card and this will drect you to the payment page.</p>
+<p> Thank you! </p>
+  </form>
+</div>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--footer start-->
+ <hr>
+<link rel="stylesheet" href="../styles/foota.css">
+<div class ="foota">
+<center>
+<br>
+<div class="div-transbox">
+<br>
+<h3 a href="contact.html"> Contact Us </h3>
+<p> +94 813 3454 <br>
+mangalyaSL@gmail.com <br>
+<h3 a href=""> About Us </h3><br>
+
+<a href = "https://www.facebook.com" >
+    <img class = "social" src="../images/fb.jpg"></a>
+<a href = "https://www.twitter.com" >
+    <img class = "social" src="../images/twitter.jpg"></a>
+<a href = "https://www.youtube.com" > 
+<img class = "social" src="../images/youtube.jpg"></a><br>
+
+<h3 a href=""> Privacy Policy </h3>
+<p class = "p2">copyright � mangalya.com. All rights reserved.</p>
+<img src="">
+</div>
+</center>
+</div>
+  </body>
+ </html>
