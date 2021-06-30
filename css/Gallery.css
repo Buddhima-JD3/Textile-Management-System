@@ -1,0 +1,78 @@
+.albums{
+    margin-top: 100px;
+    color:#125688 ;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.playback{
+    padding-left: 370px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 56px;
+
+}
+.thumb1{
+    margin-left: 20px;      
+    bottom: 60%;
+    border: 1px solid #125688;
+    background-color: #125688;;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    padding-bottom: 2px;
+    position: absolute;
+}
+
+.thumb1:hover {
+    box-shadow: 0 0 2px 5px rgba(12, 193, 253, 0.5);
+ }
+
+.thumb2{
+    margin-left: 20px;
+    bottom: 19%;
+    border: 1px solid #125688;
+    background-color: #125688;;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    padding-bottom: 2px;
+    position: absolute;
+}
+
+.thumb2:hover {
+    box-shadow: 0 0 2px 5px rgba(12, 193, 253, 0.5);
+ }
+
+.thumb3{
+    left: 82%;
+    bottom: 60%;
+    transform: translate(px,-830px);
+    border: 1px solid #125688;
+    background-color: #125688;;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    padding-bottom: 2px;
+    position: absolute;
+}
+
+.thumb3:hover {
+    box-shadow: 0 0 2px 5px rgba(12, 193, 253, 0.5);
+  }
+
+.thumb4{
+    left: 82%;
+    bottom: 19%;
+    border: 1px solid #125688;
+    background-color: #125688;;
+    border-radius: 6px;
+    padding: 5px;
+    width: 300px;
+    padding-bottom: 2px;
+    position: absolute;
+}
+
+.thumb4:hover {
+    box-shadow: 0 0 2px 5px rgba(12, 193, 253, 0.5);
+  }

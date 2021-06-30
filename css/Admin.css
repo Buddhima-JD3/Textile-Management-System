@@ -1,0 +1,17 @@
+.admin{
+    margin-top: 100px;
+    margin-bottom: 278px;
+}
+
+.bt1{
+	background-color:#1c8adb;
+	width:100%;
+	padding:10px;
+	border-radius:20px;
+	font-size:15px;
+	margin:10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	color:#fff;
+}

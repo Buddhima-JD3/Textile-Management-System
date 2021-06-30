@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+
+h1 {
+    color: white;
+}
+label { 
+    color: white;
+}
+
+input { 
+    color: black;
+}
+p {
+    color: white;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+    background-color: transparent;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.paymentForm {
+    border: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    width: 1000px;
+   
+    margin-left: 25%;
+}
+
+/* Full-width input fields */
+ input[type=date],input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: solid;
+    border: 1px;
+    border-radius: 5px;
+    background: #f1f1f1;
+    -moz-appearance: textfield;
+}
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+/* Overwrite default styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.payNowButton {
+    background-color: #4CAF50;
+    font-size:20px;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+    .registerbtn:hover {
+        opacity: 1;
+    }
+
+/* Add a blue text color to links */
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+    text-align: center;
+}
+.signin p{
+    margin-bottom :120px;
+}
+
+.icon-container img{
+    width:80px;
+    height:80px;
+}
+.icon-container img:hover, img:target {
+        border: 2px solid white;
+        border-radius:5px;
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+.footer{
+    margin-top:100%;
+}
+
+.data {
+    margin: 20px;
+    color: rgb(43, 43, 43);
+    text-align: center;
+}
+

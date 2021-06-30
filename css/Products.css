@@ -1,0 +1,25 @@
+#customers {
+    margin-top: 100px;
+    margin-left: 20px;
+    padding-right: 18px;
+    width: 99%;
+    margin-bottom: 33px;
+    color: #125688;
+}
+  
+#customers th {
+    border: 1px solid lightblue;
+    background-color: #125688;
+    color: white;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#customers td {
+        border: 1px solid lightblue;
+        background-color: lightblue;
+        padding: 19px;
+        text-align: center;
+}

@@ -1,0 +1,17 @@
+.box2{
+    position: relative;
+    margin-left: 250px;
+    margin-top: 50px;
+    width: 75%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	background: #2874aa;
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+	color:#fff
+}

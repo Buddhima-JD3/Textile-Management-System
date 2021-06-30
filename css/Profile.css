@@ -1,0 +1,43 @@
+.profiledata{
+    text-align: center;
+    color:white;
+    border: 5px solid #125688;
+    box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 80px;
+    border-radius: 25px;
+    background-color: #3988c0;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+.icon{
+    margin-top: 5px;
+    border: 5px solid lightblue;
+    border-radius: 50%;
+}
+
+.details{
+    text-align: left;
+    margin-left: 60px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.button {
+    background-color: #2d668f;
+    border: 5px solid lightblue;
+    border-radius: 15px;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 10px 30px;
+    margin-top: 20px;
+}

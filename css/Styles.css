@@ -1,0 +1,122 @@
+
+body{
+    font-family: "Lato",sans-serif;
+    margin: 0px;
+}
+
+.container {
+    margin: 0px;
+}
+
+.navigation{
+    padding: 20px;
+    padding-top: 22px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#125688;;
+    opacity: 0.9;
+    z-index: +1;
+}
+
+.left{
+    display: flex; 
+    justify-content: center;
+    
+}
+
+.logo{
+    float: left;
+    position: fixed;
+    transform: translate(-30px,-90px);
+    filter: invert();
+}
+
+.slogan{
+    float: right;
+    position: fixed;
+    transform: translate(1620px,-55px);
+    font-family: 'Lucida Handwriting';
+    color: white;
+}
+
+.navigation > .left > div {
+    margin-right: 25px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px 10px; 
+}
+
+.navlink {
+    height: 22px;
+    display: flex;
+
+}
+
+.navlink a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+
+}
+
+.navlink a:hover {
+  color: #37a8f8;;
+}
+
+
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#125688;
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top:10px;
+    opacity: 0.9;
+}
+
+.footer-bottom{
+    padding: 5px;
+    color: white;;
+    bottom: 0px;
+}
+
+ .fa {
+    padding: 10px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 50%;
+    margin: 10px 8px;
+    position: relative;
+}
+
+.fa-facebook {
+    background: white;
+    color:#125688;
+  }
+
+.fa-twitter {
+    background: white;
+    color:#125688;
+  } 
+.fa-linkedin {
+    background: white;
+    color:#125688;
+  }
+.fa-instagram {
+    background: white;
+    color:#125688;
+  }
+.fa-skype {
+    background: white;
+    color:#125688;
+  }   
+.fa:hover {
+    color:#125688;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> | TAGMS | </title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Styles.css">
+    <link rel="stylesheet" href="../css/Work.css">
+    <script src ="../js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navigation">
+
+            <div class="left">
+
+                <div class="navlink">
+                    <div class="index">
+                    <a href="Home.html">Home</a>
+                    </div>
+                </div>
+                
+                <div class="navlink">
+                    <div class="gallery">
+                    <a href="Gallery.html">Gallery</a>
+                    </div>
+                </div>
+
+                <div class="navlink">
+                    <div class="products">
+                    <a href="Products.html">Products</a>
+                    </div>
+                </div>
+                   
+                <div class="navlink">
+                    <div class="payment">
+                    <a href="Payment.php">Pay Now</a>
+                    </div>
+                </div>
+                
+                <div class="navlink">
+                    <div class="work">
+                    <a href="#">Work with Us</a>
+                    </div>
+                </div>
+
+                <div class="navlink">
+                    <div class="login">
+                    <a href="Login.html">Login</a>
+                    </div>
+                </div>
+                
+                <div class="navlink">
+                    <div class="about">
+                    <a href="About.html">About Us</a>
+                    </div>
+                </div>
+                
+                <div class="navlink">
+                    <div class="profiles">
+                    <a href="Profile.html">Profiles</a>
+                    </div>
+                </div>
+            </div> 
+            <div class = "logo">
+                <img src="../images/logo.png" >
+            </div> 
+
+            <div class="slogan">
+                <h2>Think Different.....</h2>
+            </div>
+        </div>
+
+        <div class="form-style-10" style="border-style:groove; border-color:darkblue; padding:3px">
+            <h1>Get Enrolled With Us Now!</h1>
+            <form action="Php/jobinsert.php" target="_self" method="POST" onsubmit="Submission()" >
+            <br><div class="section"><span>1</span>First Name</div><br>
+            <div class="inner-wrap">
+                <input type="text" id="fname" name="fname" style="width:500px;" placeholder ="Enter your First Name Here" required >
+            </div>
+            <div class="section"><span>2</span>Last Name</div><br>
+            <div class="inner-wrap">
+                <input type="text" id="lname" name="lname" style="width:500px;" required placeholder ="Enter your Last Name Here">
+            </div>
+            <div class="section"><span>3</span>Gender</div><br>
+            <div class="inner-wrap">
+                <input type="radio"  id="gender" name="gender" value="Male" checked>Male
+                <input type="radio"  id="gender" name="gender" value = "Female">Female
+            </div>
+            <div class="section"><span>4</span>Mobile Number </div><br>
+            <div class="inner-wrap">
+                <input type="text" id="mobile" name="mobile" style="width:500px;" pattern="[0-9]{10}" required placeholder ="Enter your Mobile Number Here">
+            </div>
+            <div class="section"><span>5</span>Email Address </div><br>
+            <div class="inner-wrap">
+                <input type="email" id="emailAdd" name="emailAdd" style="width:500px;" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" required placeholder ="Enter your Email Address Here">
+            </div>
+            <div class="section"><span>6</span>Address</div><br>
+            <div class="inner-wrap">
+                <textarea id="addr" name="addr" rows="10" cols="50"style="width:500px;" required placeholder ="Enter your Address Here"></textarea>
+            </div>
+            <div class="section"><span>7</span>Choose Your DOB</div><br>
+            <div class="inner-wrap">
+            <input type="date" placeholder="2020 xx xx" name="dob"  required>
+            </div>
+            <div class="section"><span>8</span>Job Type</div><br>
+            <div class="inner-wrap">
+                <input type="radio"  id="type" name="type" value="Stock Management" checked>Stock Management
+                <input type="radio"  id="type" name="type" value="Delivery Management" >Delivery Management
+                <input type="radio"  id="type" name="type" value="Production Management" >Production Management<br>
+                <input type="radio"  id="type" name="type" value="Work-Study Management" >Work-Study Management
+            </div>
+            <div class="section"><span>9</span>Send Us Your CV</div><br>
+            <div class="inner-wrap">
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile"><br><br>
+            </div>
+            <div class="button-section">
+                <input type="submit" id="btn1" name="btn1" value="Submit" disabled >
+                <span class="privacy-policy">
+                <input type="checkbox" id="policy" name="policy" required onclick="enableButton()">Accept <a href="Terms & Privacy.html" style="color:dodgerblue">Privacy Terms</a>
+                </span>
+                <input type="reset" id="btn2" name="reset" value="Reset">
+            </div>
+            
+        </form>
+        </div>  
+        
+    <div class="footer">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+                <a href="https://lk.linkedin.com/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://www.skype.com/en/" class="fa fa-skype"></a>
+       
+            <div class="footer-bottom">
+        &copy;2020 TAGMS Pvt.Ltd. | All Rights Reserved |
+        </div>
+    </div>
+       
+</body>
+</html>

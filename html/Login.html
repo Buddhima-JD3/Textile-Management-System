@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> | TAGMS | </title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Styles.css">
+    <link rel="stylesheet" href="../css/Login.css">
+    <script src ="../js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="navigation">
+
+            <div class="left">
+
+                <div class="navlink">
+                    <div class="index">
+                    <a href="Home.html">Home</a>
+                    </div>
+                </div>
+                
+                <div class="navlink">
+                    <div class="gallery">
+                    <a href="Gallery.html">Gallery</a>
+                    </div>
+                </div>
+
+                <div class="navlink">
+                    <div class="products">
+                    <a href="Products.html">Products</a>
+                    </div>
+                </div>
+                   
+                <div class="navlink">
+                    <div class="payment">
+                    <a href="Payment.php">Pay Now</a>
+                    </div>
+                </div>
+                
+                <div class="navlink">
+                    <div class="work">
+                    <a href="WorkwithUs.html">Work with Us</a>
+                    </div>
+                </div>
+
+                <div class="navlink">
+                    <div class="login">
+                    <a href="#">Login</a>
+                    </div>
+                </div>
+                
+                <div class="navlink">
+                    <div class="about">
+                    <a href="About.html">About Us</a>
+                    </div>
+                </div>
+
+                <div class="navlink">
+                    <div class="profiles">
+                    <a href="Profile.html">Profiles</a>
+                    </div>
+                </div>
+            </div> 
+            <div class = "logo">
+                <img src="../images/logo.png" >
+            </div> 
+
+            <div class="slogan">
+                <h2>Think Different.....</h2>
+            </div>
+        </div>
+
+        <div class="box" id="blur">
+            <img class="login1" src="../images/login.png" width="100" height="100" alt="login Image;">
+            <h2>Login</h2>
+            <form name ="form1" method ="post" action ="Admin.php" onsubmit = "return trypassword()" required>
+                <div class="inputBox">
+                    <label>Username</label>
+                    <input id ="us" type="text" name="us" required="" required placeholder ="Enter Email Here">				
+                </div>
+                <div class="inputBox">
+                    <label>Password</label>
+                    <input id = "pw" type="password" name="pw1" required="" required placeholder ="Enter your Password Here">				
+                </div>
+                <button type="submit" class="bt1"  >Continue</button>
+				<hr>
+                <p class="or">OR</p>
+                <button type="submit" class="bt2" name="">Login With Google</button><br>
+                <center>
+                <a class="link" href="#" color="#77ff33">Lost your password?</a><br>
+                <a class="link" onclick="toggle()" style="width:auto;" href="#">Don't have an account?</a><br><br>			
+                </center>
+            </form>
+        </div>
+            
+        <div id="login" class="modal">
+            <span onclick="toggle()" class="close" title="Close Modal">&times</span>
+            <form class="modal-content" action="Php/signup.php" method="post" onsubmit="return checkPassword()">
+        <div class="popup">
+            <h1>Sign Up</h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+            <label for="email"><b>Email</b></label>
+            <input type="text" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-z0-9]+\.[a-z]{2,3}" required placeholder ="Enter your Email Address Here">
+
+            <label for="nic"><b>NIC Number</b></label>
+            <input type="text" name="nic" pattern="[0-9]{12}" required placeholder ="Enter your NIC Here">
+    
+            <label for="psw"><b>Password</b></label>
+            <input type="password" id="pwd" name="pwd"  pattern="[a-z0-9A-Z] {5,2,1}" required placeholder ="Enter your Password Here">
+    
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" id="rpwd" name="rpwd"  required placeholder ="Re-enter your Password Here">
+            
+            <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label>
+    
+            <p>By creating an account you agree to our <a href="Terms & Privacy.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+    
+         <div class="clearfix">
+            <button type="button" onclick="toggle()" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
+        </div>
+        </div>
+          </form>
+        </div>
+
+    <div class="footer">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="fa fa-twitter"></a>
+                <a href="https://lk.linkedin.com/" class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/?hl=en" class="fa fa-instagram"></a>
+                <a href="https://www.skype.com/en/" class="fa fa-skype"></a>
+       
+            <div class="footer-bottom">
+        &copy;2020 TAGMS Pvt.Ltd. | All Rights Reserved |
+        </div>
+    </div>
+       
+</body>
+</html>
