@@ -1,3 +1,6 @@
+//thisi is going to be difficult
+//hell yeah
+
 //upon clicking not having account
 function toggle(){
 	var blur = document.getElementById('blur');
